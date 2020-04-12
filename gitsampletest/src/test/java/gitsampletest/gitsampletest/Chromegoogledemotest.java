@@ -58,5 +58,6 @@ public class Chromegoogledemotest {
 	@AfterClass
 	public void teardown() {
 		System.out.println("executed succesfully");
+		driver.quit();//for verifying the difference repository push pull...
 	}
 }
